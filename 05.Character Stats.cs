@@ -10,6 +10,7 @@ namespace _05.Character_Stats
             int currentHealth = int.Parse(Console.ReadLine());
             int maxHealth = int.Parse(Console.ReadLine());
             int currentEnergy = int.Parse(Console.ReadLine());
+            int newEnergy = int.Parse(Console.ReadLine());
             int maxEnergy = int.Parse(Console.ReadLine());
 
             int numberOfHealthDashes = currentHealth;
