@@ -9,8 +9,7 @@ namespace _05.Character_Stats
             string name = Console.ReadLine();
             int currentHealth = int.Parse(Console.ReadLine());
             int maxHealth = int.Parse(Console.ReadLine());
-            int currentEnergy = int.Parse(Console.ReadLine());
-            int newEnergy = int.Parse(Console.ReadLine());
+            int newEnergy = int.Parse(Console.ReadLine()); // changing name of variable
             int maxEnergy = int.Parse(Console.ReadLine());
 
             int numberOfHealthDashes = currentHealth;
