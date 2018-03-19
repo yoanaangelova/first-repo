@@ -7,7 +7,7 @@ namespace _05.Character_Stats
         static void Main(string[] args)
         {
             string name = Console.ReadLine();
-            int currentHealth = int.Parse(Console.ReadLine());
+            int currentHealth = int.Parse(Console.ReadLine());// changing variable name
             int maxHealth = int.Parse(Console.ReadLine());
             int newEnergy = int.Parse(Console.ReadLine()); // changing name of variable
             int maxEnergy = int.Parse(Console.ReadLine());
